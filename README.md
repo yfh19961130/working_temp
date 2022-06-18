@@ -1,7 +1,7 @@
 # working_temp
 
 ```bat
-set remote_port=33088
+set remote_port=16382
 
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\Wds\rdpwd\Tds\tcp" /v "PortNumber" /t REG_DWORD /d "%remote_port%" /f
 
