@@ -1,5 +1,12 @@
 # working_temp
 
+## Create `_test.bat`
+
+```
+cd %HOMEPATH%\Desktop
+copy nul _test.bat
+notepad _test.bat
+```
 
 ## Change Windows Remote Port
 
