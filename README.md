@@ -2,7 +2,7 @@
 
 ## Create `_test.bat`
 
-```
+```bat
 cd %HOMEPATH%\Desktop
 copy nul _test.bat
 notepad _test.bat
