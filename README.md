@@ -19,7 +19,7 @@ reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\Win
 
 netsh advfirewall firewall add rule name=%remote_port% protocol=TCP localport=%remote_port% dir=in action=allow
 
-net stop TermService
+net stop TermService /Y
 
 net start TermService
 
